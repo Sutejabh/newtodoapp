@@ -1,0 +1,372 @@
+    1  cd ..
+    2  cd todo-backend
+    3  node index.js
+    4  clear
+    5  mongo
+    6  mongod
+    7  node index.js
+    8  clear
+    9  node index.js
+   10  sudo systemctl restart mongod
+   11  node index.js
+   12  sudo service mongod stop
+   13  sudo systemctl restart mongod
+   14  sudo systemctl status mongod
+   15  q:
+   16  node index.js
+   17  cd ..
+   18  clear
+   19  cd ..
+   20  cd newtodo-app
+   21  cd ..
+   22  cd newtodo-app
+   23  cd todo-backend
+   24  node index.js
+   25  npm install express body-parser mongoose --save
+   26  node index.js
+   27  docker build -t todo-backend:1.0 .
+   28  sudo apt install docker.io
+   29  docker build -t todo-backend:1.0 .
+   30  docker login
+   31  sudo groupadd docker
+   32  sudo usermod -aG docker ${USER}
+   33  su -s ${USER}
+   34  whoami
+   35  sudo
+   36  dir
+   37  clear
+   38  node --version
+   39  node -v
+   40  clear
+   41  code .
+   42  mkdir
+   43  mkdir todo-app
+   44  cd todo-app
+   45  install chrome
+   46  install googlechrome
+   47  cd ..
+   48  sudo apt update
+   49  sudo snap install chromium 
+   50  sudo apt update
+   51  sudo apt install chromium-browser 
+   52  clear
+   53  git
+   54  sudo apt install git
+   55  cd git*
+   56  git add todo-app
+   57  dir
+   58  git add todo-app
+   59  git branch main
+   60  git add 
+   61  git pull
+   62  cd todo-app
+   63  node index.js
+   64  sudo apt install nodejs
+   65  mongod 
+   66  node index.js
+   67  cd todo-backend
+   68  node index.js
+   69  sudo apt install npm
+   70  node index.js
+   71  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+   72  sudo apt-get install gnupg
+   73  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+   74  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+   75  sudo apt-get update
+   76  sudo apt-get install -y mongodb-org
+   77  echo "mongodb-org hold" | sudo dpkg --set-selections
+   78  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+   79  echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+   80  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+   81  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+   82  ps --no-headers -o comm 1
+   83  sudo systemctl start mongod
+   84  sudo systemctl daemon-reload
+   85  sudo systemctl status mongod
+   86  mongo
+   87  cd ..
+   88  node --version
+   89  mongo --version
+   90  mkdir todo-backend
+   91  mkdir todo-frontend
+   92  cd todo-frontend
+   93  npx create-react-app todo-frontend
+   94  cd ..
+   95  dir
+   96  cd todo-backend
+   97  node index.js
+   98  run
+   99  init y
+  100  npm init -y
+  101  npm install express body-parser mongoose --save
+  102  touch index.js
+  103  code .
+  104  node index.js
+  105  mkdir models
+  106  touch models/index.js
+  107  touch models/todo.js
+  108  node index.js
+  109  history | grep "mongo"
+  110  mongo
+  111  node index.js
+  112  history | grep "mongo"
+  113  sudo systemctl status
+  114  sudo systemctl status mongo
+  115  sudo systemctl status mongod
+  116  history | grep "mongo"
+  117  sudo systemctl start mongod
+  118  node index.js
+  119  clear
+  120  node index.js
+  121  npm start
+  122  cd ..
+  123  cd todo-frontend
+  124  npm start
+  125  cd ..
+  126  cd newtodo-app
+  127  cd todo-backend
+  128  npm start
+  129  cd ..
+  130  cd todo-frontend
+  131  npm install axios
+  132  npm start
+  133  cd newtodo-app
+  134  su -s ${USER}
+  135  sudo groupadd docker
+  136  sudo usermod -aG docker ${USER}
+  137  cd newtodo-app
+  138  su -s ${USER}
+  139  sudo -i  
+  140  su -i ${USER}
+  141  sudo apt-get update
+  142  [sudo] password for braiam:
+  143  su -s ${USER}
+  144  cd ..
+  145  su -s ${USER}
+  146  sudo apt-get install "program to install"
+  147  cd newtodo-app
+  148  sudo apt-get install "program to install"
+  149  sudo -s ${USER}
+  150  su -s ${USER}
+  151  docker run hello-world
+  152  cd todo-backend
+  153  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  154  sudo chmod g+rwx "$HOME/.docker" -R
+  155  code .
+  156  docker build -t todo-backend:1.0 .
+  157  docker container run --name todo-backend -p
+  158  3000:3000 todo-backend:1.0
+  159  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  160  cd newtodo-app
+  161  cdm todo-backend
+  162  cd todo-backend
+  163  docker container run --name todo-backend -p
+  164  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  165  docker container rm -f $(docker ps -aq) 
+  166  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  167  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  168  docker login
+  169  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  170  docker login
+  171  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  172  docker run -d -p 27017:27017 -v <db-dir>:/data/db --name mongodb dockerfile/mongodb
+  173  sudo docker search mongodb
+  174  mongo 10.10.10.60:27017
+  175  mongo localhost:27017
+  176  mongo
+  177  mongo 10.10.10.60:27017
+  178  cd newtodo-app
+  179  cd todo-backend
+  180  docker-compose build
+  181  sudo apt install docker-compose
+  182  docker-compose build
+  183  docker-compose up
+  184  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  185  docker login
+  186  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  187  docker run --net container:mongo_live your_app_docker_image
+  188  docker run --net container:mongo_live todo-backend:1.0
+  189  docker-compose up
+  190  docker container rm -f $(docker ps -aq) 
+  191  docker-compose up
+  192  cd newtodo-app
+  193  cd todo-backend
+  194  docker container rm -f $(docker ps -aq) 
+  195  docker build -t todo-backend:1.0 .
+  196  docker-compose build
+  197  sudo service mongod start
+  198  docker-compose up
+  199  docker container rm -f $(docker ps -aq) 
+  200  sudo service mongod start
+  201  docker-compose build
+  202  docker-compose up
+  203  docker container rm -f $(docker ps -aq) 
+  204  docker-compose build
+  205  docker-compose up
+  206  docker container rm -f $(docker ps -aq) 
+  207  docker build -t todo-backend:1.0 .
+  208  docker-compose build
+  209  docker-compose up
+  210  exit
+  211  cd newtodo-app
+  212  clear
+  213  docker container rm -f $(docker ps -aq) 
+  214  docker build -t todo-backend:1.0 .
+  215  cd todo-backend
+  216  docker build -t todo-backend:1.0 .
+  217  docker-compose build
+  218  docker-compose up
+  219  docker container rm -f $(docker ps -aq) 
+  220  docker-compose up
+  221  docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb
+  222  docker login
+  223  docker-compose up
+  224  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  225  docker image ls
+  226  docker container rm -f $(docker ps -aq) 
+  227  docker image ls
+  228  docker container rm -f $(docker ps -aq) 
+  229  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  230  cd newtod-app
+  231  cd newtodo-app
+  232  clear
+  233  docker container rm -f $(docker ps -aq) 
+  234  cd todo-backend
+  235  docker image ls
+  236  clear
+  237  docker-compose build
+  238  docker-compose up
+  239  sudo mongo start
+  240  mongod start
+  241  mongod
+  242  mongo
+  243  docker-compose up
+  244  docker container rm -f $(docker ps -aq) 
+  245  docker-compose build
+  246  docker-compose up
+  247  sudo service mongod start
+  248  docker-compose up
+  249  clear
+  250  sudo service mongod start
+  251  docker container rm -f $(docker ps -aq) 
+  252  docker-compose up
+  253  docker --version
+  254  docker container rm -f $(docker ps -aq) 
+  255  docker-compose build
+  256  docker-compose up
+  257  docker-compose build
+  258  docker-compose up
+  259  sudo service mongod --dbpath /usr/local/var/mongodb mongod start
+  260  sudo service mongod --dbpath /usr/local/var/mongodb  start
+  261  sudo service --dbpath /usr/local/var/mongodb start
+  262  sudo service /usr/local/var/mongodb start
+  263  mongodb
+  264  mongod
+  265  mongo
+  266  docker-compose up
+  267  mongod --dbpath /usr/local/var/mongodb
+  268  docker container rm -f $(docker ps -aq) 
+  269  docker build -t todo-backend:1.0 .
+  270  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  271  docker run -p ${MONGO_PORT}:${MONGO_PORT} --name mongo -d mongo
+  272  docker run -p ${27017}:${27017} --name mongo -d mongo
+  273  docker run -p  --name mongo -d mongo
+  274  clear
+  275  docker container rm -f $(docker ps -aq) 
+  276  docker build -t todo-backend:1.0 .
+  277  docker run -p  --name mongo -d mongo
+  278  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  279  docker container rm -f $(docker ps -aq) 
+  280  docker build -t todo-backend:1.0 .
+  281  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  282  docker container rm -f $(docker ps -aq) 
+  283  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  284  docker container rm -f $(docker ps -aq) 
+  285  docker build -t todo-backend:1.0 .
+  286  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  287  docker ps 
+  288  mongod
+  289  docker run -p  --name mongo -d mongo
+  290  docker run -p 27017:27017  --name mongodb -d mongo
+  291  docker container rm -f $(docker ps -aq) 
+  292  docker run -p 27017:27017  --name mongodb -d mongo
+  293  ps -elf | grep mongo
+  294  kill -9 16110
+  295  sudo kill -9 16110
+  296  ps -elf | grep mongo
+  297  clear
+  298  docker run -p 27017:27017  --name mongodb -d mongo
+  299  docker container rm -f $(docker ps -aq) 
+  300  docker run -p 27017:27017  --name mongodb -d mongo
+  301  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  302  docker run -p 27017:27017  --name mongodb -d mongo
+  303  docker build -t todo-backend:1.0 .
+  304  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  305  docker ps
+  306  mongo --help
+  307  mongo --host mongodb --port 27017
+  308  mongo --host localhost --port 27017
+  309  ps -elf | grep mongo
+  310  sudo kill -9 23148
+  311  ps -elf | grep mongo
+  312  docker ps
+  313  docker ps -a
+  314* 
+  315  docker run -p 27017:27017  --name mongodb -d mongo
+  316  docker ps
+  317  mongo --host 127.0.0.1 
+  318* 
+  319  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  320  clear
+  321  docker -ps
+  322  docker ps
+  323  docker build -t todo-backend:1.0 .
+  324  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  325  docker ps -a
+  326* 
+  327  docker ps -a
+  328  clear
+  329  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  330  node index.js
+  331  docker network ls
+  332  docker network rm 63991829bf82
+  333  docker network ls
+  334  docker ps -a
+  335  docker  rm 66ce753ed57d
+  336  clear
+  337  docker ps -a
+  338  docker inspect 4ae318af251b
+  339  docker build -t todo-backend:1.0 .
+  340  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  341  docker container rm -f $(docker ps -aq) 
+  342  clear
+  343  docker-compose ps
+  344  docker ps
+  345  docker network ls
+  346  docker ps
+  347  docker ps -a
+  348  clear
+  349  docker container rm -f $(docker ps -aq) 
+  350* docker run -p 27017:27017  --name mongodb -d mongo[B
+  351  docker container rm -f $(docker ps -aq) 
+  352  docker run -p 27017  --name mongo -d mongo
+  353  docker ps
+  354  docker container run --name todo-backend -p 3000:3000 todo-backend:1.0
+  355  docker ps -a
+  356  docker rm 554b3d2dadc1
+  357  docker run --name todo-backend -p 3000:3000 todo-backend:1.0
+  358  docker build -t todo-backend:1.0 .
+  359  docker ps -a
+  360  docker rm 40b3c570f0d1
+  361  docker run --name todo-backend -p 3000:3000 todo-backend:1.0
+  362  docker ps
+  363  docker ps -a
+  364  docker container rm -f $(docker ps -aq) 
+  365  docker --help | grep network
+  366  docker network ls
+  367  docker run --network bridge -p 27017  --name mongo -d mongo
+  368  docker run --network bridge --name todo-backend -p 3000:3000 todo-backend:1.0
+  369  clear
+  370  docker container rm -f $(docker ps -aq) 
+  371  docker service create --name mongo mongo
+  372  history > commands.txt
