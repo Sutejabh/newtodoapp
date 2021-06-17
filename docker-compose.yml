@@ -3,7 +3,7 @@ services:
   todo-frontend:
     stdin_open: true
     tty: true
-    build: ./todo-frontend
+    image: bheemasimha/firstrepo:frontlatest 
     ports:
       - '3001:3001'
     networks: 
@@ -11,7 +11,7 @@ services:
     depends_on:
       - todo-backend
   todo-backend:
-    build: ./todo-backend
+    image: bheemasimha/firstrepo:backendlatest
     ports:
       - '3000:3000'
     networks: 
