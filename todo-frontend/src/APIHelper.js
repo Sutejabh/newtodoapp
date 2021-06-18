@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL="http://localhost:3000/todos/"
+const API_URL="http://3.21.92.86:3000/todos/" // the IP address has to change according to our require Ip address or localhost
 async function createTodo(task) {
   const { data: newTodo } = await axios.post(API_URL, {
     task
